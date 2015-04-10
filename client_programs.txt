@@ -1,0 +1,7 @@
+mysqlshow -u root -p
+mysqlshow -u root -p mysql
+mysqladmin
+mysqladmin processlist -u root -p
+mysqladmin status -u root -p
+mysqldump mysql > test_dump.sql -u root -p
+mysqldump --no-data mysql -u root -p | less
