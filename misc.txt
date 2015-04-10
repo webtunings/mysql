@@ -1,0 +1,3 @@
+SHOW GRANTS;
+SHOW TABLES;
+SELECT Host,User from user;
